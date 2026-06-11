@@ -9,7 +9,7 @@ resolution-markers = [
 ]
 
 [options]
-exclude-newer = "2026-06-07T23:31:08.957418339Z"
+exclude-newer = "2026-06-08T13:51:14.095651126Z"
 exclude-newer-span = "P3D"
 
 [manifest]
@@ -2487,7 +2487,7 @@ wheels = [
 [[package]]
 name = "headroom-ai"
 version = "0.24.0"
-source = { git = "https://github.com/MindTouch/headroom-ai.git?rev=feature-litellm-proxy-hooks-and-optional-dep-release_20260610#82f4bf86cfa97599ef06b8e049d496db9995ef57" }
+source = { git = "https://github.com/MindTouch/headroom-ai.git?rev=main#a03beddcf332362cf7e5035a326d33e6598092b5" }
 dependencies = [
     { name = "ast-grep-cli" },
     { name = "click" },
@@ -3608,7 +3608,7 @@ requires-dist = [
     { name = "grpcio", marker = "extra == 'grpc'", specifier = "==1.78.0" },
     { name = "grpcio", marker = "extra == 'proxy-runtime'", specifier = "==1.78.0" },
     { name = "gunicorn", marker = "extra == 'proxy'", specifier = ">=23.0.0,<24.0" },
-    { name = "headroom-ai", extras = ["code", "ml"], marker = "extra == 'proxy'", git = "https://github.com/MindTouch/headroom-ai.git?rev=feature-litellm-proxy-hooks-and-optional-dep-release_20260610" },
+    { name = "headroom-ai", extras = ["code", "ml"], marker = "extra == 'proxy'", git = "https://github.com/MindTouch/headroom-ai.git?rev=main" },
     { name = "httpx", specifier = ">=0.28.0,<1.0" },
     { name = "importlib-metadata", specifier = ">=8.0.0,<9.0" },
     { name = "jinja2", specifier = ">=3.1.6,<4.0" },
